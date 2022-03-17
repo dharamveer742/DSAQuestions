@@ -1,0 +1,2 @@
+adding a file in 
+Array folder to commit only in a particular file
