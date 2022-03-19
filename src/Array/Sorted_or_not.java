@@ -1,3 +1,7 @@
+// Method to check array is sorted or not
+// I/P : {5,12,30,2,35}
+// O/p : false (Not sorted)
+
 package Array;
 
 public class Sorted_or_not {
@@ -11,7 +15,7 @@ public class Sorted_or_not {
         return true;
 
     }
-    public void print(int[] ar){
+    public void checkPrint(int[] ar){
         if(check(ar)==true)
             System.out.println("Array is sorted");
         else
@@ -23,7 +27,7 @@ class Execution{
     public static void main(String[] args) {
         Sorted_or_not cb = new Sorted_or_not();
         int[] ar = {5, 12, 30,2,35};
-        cb.print(ar);
+        cb.checkPrint(ar);
     }
 
 

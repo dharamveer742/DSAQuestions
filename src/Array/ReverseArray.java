@@ -1,3 +1,7 @@
+//  Method to reverse an array
+//  I/P : {10,5,7,30,9}
+//  O/P : {9,30,7,5,10}
+
 package Array;
 
 public class ReverseArray {
@@ -15,27 +19,22 @@ public class ReverseArray {
     }
 
     public  void print(int[] arr) {
-        for(int i=0;i<arr.length;i++){
+        for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
-
     }
+
+
 
     public static void main(String[] args) {
         ReverseArray ob = new ReverseArray();
-        int[] a ={10,5,7,30,9};
 
+        int[] a ={10,5,7,30,9};
         ob.print(ob.reverse(a));
 
 
 
 
     }
-
-
-
-
-
-
 
 }
