@@ -20,7 +20,6 @@ public class LomatoPartition {
                 swap(arr,w,i);
             }
         }
-        ;
         swap(arr,w+1,high);
         return w+1;
     }
