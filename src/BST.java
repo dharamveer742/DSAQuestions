@@ -77,10 +77,10 @@ public class BST {
                 return root;
             }
         }
-        if(parent.data<x){
+        if(x>parent.data){
             parent.right=temp;
         }
-        if(parent.data>x){
+        if(x<parent.data){
             parent.left=temp;
         }
         return root;
